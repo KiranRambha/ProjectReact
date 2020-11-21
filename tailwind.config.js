@@ -1,6 +1,10 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
+  experimental: {
+    darkModeVariant: true,
+  },
+  dark: 'class',
   theme: {
     extend: {},
     fontFamily: {
