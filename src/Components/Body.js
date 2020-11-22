@@ -4,7 +4,7 @@ import Introduction from './Introduction';
 export default function Body(props) {
   return (
     <div
-      className={`${props.darkMode}:bg-black ${props.darkMode}:text-white px-56 font-content pb-10 flex-1 overflow-auto`}
+      className={`${props.darkMode}:bg-black ${props.darkMode}:text-white px-4 lg:px-56 font-content pb-10 flex-1 overflow-auto`}
     >
       <Introduction darkMode={props.darkMode} />
       <div className='font-header font text-xl'>

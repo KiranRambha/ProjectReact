@@ -4,7 +4,10 @@ import Footer from './Components/Footer';
 import React, { useState } from 'react';
 
 function App() {
-  const [darkMode, setDarkMode] = useState('dark');
+  let theme = localStorage.getItem('darkMode')
+    ? localStorage.getItem('darkMode')
+    : 'dark';
+  const [darkMode, setDarkMode] = useState(theme);
   return (
     <div
       className={`${darkMode}:bg-black relative pb-10 min-h-screen flex flex-col`}
