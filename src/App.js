@@ -7,6 +7,7 @@ function App() {
   let theme = localStorage.getItem('darkMode')
     ? localStorage.getItem('darkMode')
     : 'dark';
+  localStorage.setItem('darkMode', theme);
   const [darkMode, setDarkMode] = useState(theme);
   return (
     <div

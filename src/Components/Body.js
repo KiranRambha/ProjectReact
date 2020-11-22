@@ -17,7 +17,7 @@ export default function Body(props) {
         <b>Node Js</b>, <b>React</b> and many other cloud services in <b>AWS</b>{' '}
         and <b>Azure Stack</b>. He also has experience in developing web
         application using <b>ASP.NET CORE</b> as well as developing Alexa skills
-        using <b>AWS Lambda</b> and <b>Alexa Skill Kit</b>. He has an excellent
+        using <b>AWS Lambda</b> and <b>Alexa Skill Kit</b>. He has excellent
         interpersonal and team working skills that have been cultivated
         throughout years.
       </div>

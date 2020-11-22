@@ -5,7 +5,9 @@ function Footer(props) {
     <footer
       className={`${props.darkMode}:bg-black ${props.darkMode}:text-white text-center text-xs p-3 absolute bottom-0 w-full`}
     >
-      &copy; Copyright 2020
+      &copy; Copyright 2020 KIRAN RAMBHA
+      <br />
+      Made with Love in London, UK
     </footer>
   );
 }
