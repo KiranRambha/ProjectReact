@@ -12,7 +12,7 @@ export default function Experience({ darkMode }) {
           <u className='pl-2'>Experience</u>
         </div>
         <IsVisible once>
-          {(isVisible) => (
+          {(experienceIsVisible) => (
             <div className='pb-10 flex'>
               <div
                 className={`w-1 ${darkMode}:bg-gray-200 bg-gray-500 rounded-full md:ml-6 opacity-25`}
@@ -20,7 +20,7 @@ export default function Experience({ darkMode }) {
               <div className='-ml-2'>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-3 fadeInDown' : 'hidden'
+                    experienceIsVisible ? 'animated-3 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div
@@ -44,7 +44,7 @@ export default function Experience({ darkMode }) {
                 </div>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-6 fadeInDown' : 'hidden'
+                    experienceIsVisible ? 'animated-6 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div
@@ -68,7 +68,7 @@ export default function Experience({ darkMode }) {
                 </div>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-9 fadeInDown' : 'hidden'
+                    experienceIsVisible ? 'animated-9 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div
@@ -92,7 +92,7 @@ export default function Experience({ darkMode }) {
                 </div>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-12 fadeInDown' : 'hidden'
+                    experienceIsVisible ? 'animated-12 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div

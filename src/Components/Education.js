@@ -12,7 +12,7 @@ export default function Education({ darkMode }) {
           <u className='pl-2'>Education</u>
         </div>
         <IsVisible once>
-          {(isVisible) => (
+          {(educationIsVisible) => (
             <div className='pb-10 flex'>
               <div
                 className={`w-1 ${darkMode}:bg-gray-200 bg-gray-500 rounded-full md:ml-6 opacity-25`}
@@ -20,7 +20,7 @@ export default function Education({ darkMode }) {
               <div className='-ml-2'>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-3 fadeInDown' : 'hidden'
+                    educationIsVisible ? 'animated-3 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div
@@ -47,7 +47,7 @@ export default function Education({ darkMode }) {
                 </div>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-6 fadeInDown' : 'hidden'
+                    educationIsVisible ? 'animated-6 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div
@@ -74,7 +74,7 @@ export default function Education({ darkMode }) {
                 </div>
                 <div
                   className={`py-4 flex ${
-                    isVisible ? 'animated-9 fadeInDown' : 'hidden'
+                    educationIsVisible ? 'animated-9 fadeInDown' : 'hidden'
                   }`}
                 >
                   <div

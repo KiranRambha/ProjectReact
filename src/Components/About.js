@@ -23,13 +23,13 @@ export default function About() {
           throughout years.
         </div>
         <div className='pb-10'>
-          Along with being a full-stack developer, I really enjoy photography
+          Along with being a full-stack developer, I really enjoy photography -
           especially landscape and street photography. I recently started
-          exploring the world of film photography and I loves learning all the
-          ins and outs different film stocks and film cameras. Aside from
-          photography I like to spend my down time at the gym or taking a long
-          walk in my local park. I also like to travel and explore food and
-          culture from different countries.
+          exploring the world of film photography and I love learning all the
+          ins and outs of different film stocks and film cameras. Aside from
+          photography I like to spend my down time at the gym or taking long
+          walks in my local park. I also like to travel and explore different
+          food and culture from different countries.
         </div>
       </div>
     </section>
