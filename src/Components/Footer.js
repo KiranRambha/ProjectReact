@@ -4,12 +4,13 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Footer(props) {
+  let date = new Date().getFullYear();
   return (
     <footer
       className={`${props.darkMode}:bg-black ${props.darkMode}:text-white text-center text-xs p-3 absolute bottom-0 w-full px-4 lg:px-56 flex justify-between`}
     >
       <div>
-        &copy; Copyright 2020 KIRAN RAMBHA
+        &copy; Copyright {date} KIRAN RAMBHA
         <br />
         Made with Love in London, UK
       </div>

@@ -28,15 +28,17 @@ export default function Experience({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>Accenture UK</h6>
-                      <h6 class='text-xs ml-2'>(Dec '19 - Present)</h6>
+                      <h6 className='font-semibold'>Accenture UK</h6>
+                      <h6 className='text-xs ml-2'>(Dec '19 - Present)</h6>
                     </div>
-                    <h6 class='text-sm'>Senior Software Engineer Analyst</h6>
-                    <div class='mt-2 flex items-center'>
+                    <h6 className='text-sm'>
+                      Senior Software Engineer Analyst
+                    </h6>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>London, UK</h6>
+                      <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
                     </div>
-                    <h6 class='text-xs mt-2'>
+                    <h6 className='text-xs mt-2'>
                       <strong>Specialized in:</strong> Nodejs, Reactjs, Alexa
                       Skill Kit, AWS
                     </h6>
@@ -52,15 +54,15 @@ export default function Experience({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>Accenture UK</h6>
-                      <h6 class='text-xs ml-2'>(Dec '18 - Nov '19')</h6>
+                      <h6 className='font-semibold'>Accenture UK</h6>
+                      <h6 className='text-xs ml-2'>(Dec '18 - Nov '19')</h6>
                     </div>
-                    <h6 class='text-sm'>Software Engineer Analyst</h6>
-                    <div class='mt-2 flex items-center'>
+                    <h6 className='text-sm'>Software Engineer Analyst</h6>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>London, UK</h6>
+                      <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
                     </div>
-                    <h6 class='text-xs mt-2'>
+                    <h6 className='text-xs mt-2'>
                       <strong>Specialized in:</strong> Microservice
                       Architecture, Chatbots
                     </h6>
@@ -76,15 +78,15 @@ export default function Experience({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>Accenture UK</h6>
-                      <h6 class='text-xs ml-2'>(Oct '17 - Nov '18')</h6>
+                      <h6 className='font-semibold'>Accenture UK</h6>
+                      <h6 className='text-xs ml-2'>(Oct '17 - Nov '18')</h6>
                     </div>
-                    <h6 class='text-sm'>Software Engineer Associate</h6>
-                    <div class='mt-2 flex items-center'>
+                    <h6 className='text-sm'>Software Engineer Associate</h6>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>London, UK</h6>
+                      <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
                     </div>
-                    <h6 class='text-xs mt-2'>
+                    <h6 className='text-xs mt-2'>
                       <strong>Specialized in:</strong> Murex, Python, HTML,
                       Javascript, CSS
                     </h6>
@@ -100,17 +102,17 @@ export default function Experience({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>Accenture UK</h6>
-                      <h6 class='text-xs ml-2'>(Jun '15 - Sep '16')</h6>
+                      <h6 className='font-semibold'>Accenture UK</h6>
+                      <h6 className='text-xs ml-2'>(Jun '15 - Sep '16')</h6>
                     </div>
-                    <h6 class='text-sm'>
+                    <h6 className='text-sm'>
                       Software Engineer (Industrial Placement)
                     </h6>
-                    <div class='mt-2 flex items-center'>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>London, UK</h6>
+                      <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
                     </div>
-                    <h6 class='text-xs mt-2'>
+                    <h6 className='text-xs mt-2'>
                       <strong>Specialized in:</strong> C#, ASP.NET, HTML, CSS,
                       jQuery, AJAX
                     </h6>

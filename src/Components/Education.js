@@ -28,20 +28,20 @@ export default function Education({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>
+                      <h6 className='font-semibold'>
                         <span>Royal Holloway</span>
                         <span className='hidden lg:contents'>
                           , University of London
                         </span>
                       </h6>
-                      <h6 class='text-xs ml-2'>(2013 - 2017)</h6>
+                      <h6 className='text-xs ml-2'>(2013 - 2017)</h6>
                     </div>
-                    <h6 class='text-sm'>
+                    <h6 className='text-sm'>
                       BSc Computer Science (Year in Industry)
                     </h6>
-                    <div class='mt-2 flex items-center'>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>London, UK</h6>
+                      <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
                     </div>
                   </div>
                 </div>
@@ -55,18 +55,20 @@ export default function Education({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>
+                      <h6 className='font-semibold'>
                         Sri Chaitanya{' '}
                         <span className='hidden lg:contents'>
                           Junior College
                         </span>
                       </h6>
-                      <h6 class='text-xs ml-2'>(2011 - 2013)</h6>
+                      <h6 className='text-xs ml-2'>(2011 - 2013)</h6>
                     </div>
-                    <h6 class='text-sm'>Intermediate Education (A-Level)</h6>
-                    <div class='mt-2 flex items-center'>
+                    <h6 className='text-sm'>
+                      Intermediate Education (A-Level)
+                    </h6>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>
+                      <h6 className='font-semibold text-xs ml-2'>
                         Vijayawada, AP, India
                       </h6>
                     </div>
@@ -82,17 +84,17 @@ export default function Education({ darkMode }) {
                   ></div>
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 class='font-semibold'>
+                      <h6 className='font-semibold'>
                         Gowtham{' '}
                         <span className='hidden lg:contents'>Concept</span>{' '}
                         School
                       </h6>
-                      <h6 class='text-xs ml-2'>(2007-2011)</h6>
+                      <h6 className='text-xs ml-2'>(2007-2011)</h6>
                     </div>
-                    <h6 class='text-sm'>High School</h6>
-                    <div class='mt-2 flex items-center'>
+                    <h6 className='text-sm'>High School</h6>
+                    <div className='mt-2 flex items-center'>
                       <FontAwesomeIcon icon={faMapPin} />
-                      <h6 class='font-semibold text-xs ml-2'>
+                      <h6 className='font-semibold text-xs ml-2'>
                         Gudivada, AP, India
                       </h6>
                     </div>

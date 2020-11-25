@@ -13,7 +13,7 @@ export default function Body(props) {
       >
         <Introduction darkMode={props.darkMode} />
         <About />
-        <div class='grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-40'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-40'>
           <Experience darkMode={props.darkMode} />
           <Education darkMode={props.darkMode} />
         </div>
