@@ -1,9 +1,9 @@
 import React from 'react';
 import Introduction from './Introduction';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-regular-svg-icons';
 import About from './About';
 import Skills from './Skills';
+import Experience from './Experience';
+import Education from './Education';
 
 export default function Body(props) {
   return (
@@ -13,7 +13,11 @@ export default function Body(props) {
       >
         <Introduction darkMode={props.darkMode} />
         <About />
-        <Skills />
+        <div class='grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-40'>
+          <Experience darkMode={props.darkMode} />
+          <Education darkMode={props.darkMode} />
+        </div>
+        <Skills darkMode={props.darkMode} />
       </div>
     </section>
   );

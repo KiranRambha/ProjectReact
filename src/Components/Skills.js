@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTools } from '@fortawesome/free-solid-svg-icons';
 import SkillsList from './SkillsList';
 
-export default function Skills() {
+export default function Skills({ darkMode }) {
   function importAll(r) {
     let images = {};
     r.keys().map((item, index) => {
@@ -25,7 +25,13 @@ export default function Skills() {
           <u className='pl-2'>Skills</u>
         </div>
         <IsVisible once>
-          {(isVisible) => <SkillsList isVisible={isVisible} images={images} />}
+          {(isVisible) => (
+            <SkillsList
+              isVisible={isVisible}
+              images={images}
+              darkMode={darkMode}
+            />
+          )}
         </IsVisible>
       </div>
     </section>

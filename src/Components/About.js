@@ -10,7 +10,7 @@ export default function About() {
           <FontAwesomeIcon icon={faUser} />
           <u className='pl-2'>About</u>
         </div>
-        <div className='pb-10 '>
+        <div className='pb-10'>
           Hi my name is <b>Kiran</b>. I am a passionate and hardworking senior
           software engineer with 4+ years of experience at Accenture UK. I am a
           full-stack developer currently working with different JavaScript
@@ -22,7 +22,7 @@ export default function About() {
           interpersonal and team working skills that have been cultivated
           throughout years.
         </div>
-        <div className='pb-10 '>
+        <div className='pb-10'>
           Along with being a full-stack developer, I really enjoy photography
           especially landscape and street photography. I recently started
           exploring the world of film photography and I loves learning all the

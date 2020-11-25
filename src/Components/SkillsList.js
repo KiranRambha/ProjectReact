@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function SkillsList({ isVisible, images }) {
+export default function SkillsList({ isVisible, images, darkMode }) {
   return (
     <div className='grid grid-cols-2 lg:grid-cols-4 gap-1 md:gap-4 font-bold'>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-1` : `hidden`
         }`}
       >
@@ -23,7 +23,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-2` : `hidden`
         }`}
       >
@@ -42,7 +42,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-3` : `hidden`
         }`}
       >
@@ -61,7 +61,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-4` : `hidden`
         }`}
       >
@@ -80,7 +80,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-5` : `hidden`
         }`}
       >
@@ -99,7 +99,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-6` : `hidden`
         }`}
       >
@@ -118,7 +118,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-7` : `hidden`
         }`}
       >
@@ -137,7 +137,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-8` : `hidden`
         }`}
       >
@@ -156,7 +156,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-9` : `hidden`
         }`}
       >
@@ -175,7 +175,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-10` : `hidden`
         }`}
       >
@@ -194,7 +194,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-11` : `hidden`
         }`}
       >
@@ -213,7 +213,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-12` : `hidden`
         }`}
       >
@@ -232,7 +232,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-13` : `hidden`
         }`}
       >
@@ -251,7 +251,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-14` : `hidden`
         }`}
       >
@@ -270,7 +270,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-15` : `hidden`
         }`}
       >
@@ -289,7 +289,7 @@ export default function SkillsList({ isVisible, images }) {
         </div>
       </div>
       <div
-        className={`border-solid border-2 border-gray-300 rounded-lg ${
+        className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-16` : `hidden`
         }`}
       >
