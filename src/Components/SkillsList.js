@@ -49,13 +49,13 @@ export default function SkillsList({ isVisible, images, darkMode }) {
         <div className='p-2.5 md:p-2'>
           <div className='float-left'>
             <img
-              src={images['mongodb.png'].default}
-              alt='MongoDb'
+              src={images['nlp.png'].default}
+              alt='NLP'
               className='w-8 md:w-10'
             />
           </div>
           <div className='float-left p-2 text-xs md:text-base'>
-            <p>Mongo Db</p>
+            <p>NLP/Chatbots</p>
           </div>
           <div className='clear-both'></div>
         </div>
@@ -125,13 +125,13 @@ export default function SkillsList({ isVisible, images, darkMode }) {
         <div className='p-2.5 md:p-2'>
           <div className='float-left'>
             <img
-              src={images['javascript.png'].default}
-              alt='JavaScript'
+              src={images['aws.png'].default}
+              alt='AWS'
               className='w-8 md:w-10'
             />
           </div>
           <div className='float-left p-2 text-xs md:text-base'>
-            <p>JavaScript</p>
+            <p>AWS</p>
           </div>
           <div className='clear-both'></div>
         </div>
@@ -144,13 +144,13 @@ export default function SkillsList({ isVisible, images, darkMode }) {
         <div className='p-2.5 md:p-2'>
           <div className='float-left'>
             <img
-              src={images['postgresql.png'].default}
-              alt='Postgresql'
+              src={images['mongodb.png'].default}
+              alt='MongoDb'
               className='w-8 md:w-10'
             />
           </div>
           <div className='float-left p-2 text-xs md:text-base'>
-            <p>Postgresql</p>
+            <p>Mongo Db</p>
           </div>
           <div className='clear-both'></div>
         </div>
@@ -201,13 +201,13 @@ export default function SkillsList({ isVisible, images, darkMode }) {
         <div className='p-2.5 md:p-2'>
           <div className='float-left'>
             <img
-              src={images['docker.png'].default}
-              alt='DOCKER'
+              src={images['javascript.png'].default}
+              alt='JavaScript'
               className='w-8 md:w-10'
             />
           </div>
           <div className='float-left p-2 text-xs md:text-base'>
-            <p>Docker</p>
+            <p>JavaScript</p>
           </div>
           <div className='clear-both'></div>
         </div>
@@ -220,13 +220,13 @@ export default function SkillsList({ isVisible, images, darkMode }) {
         <div className='p-2.5 md:p-2'>
           <div className='float-left'>
             <img
-              src={images['aws.png'].default}
-              alt='AWS'
+              src={images['docker.png'].default}
+              alt='DOCKER'
               className='w-8 md:w-10'
             />
           </div>
           <div className='float-left p-2 text-xs md:text-base'>
-            <p>AWS</p>
+            <p>Docker</p>
           </div>
           <div className='clear-both'></div>
         </div>
@@ -258,13 +258,13 @@ export default function SkillsList({ isVisible, images, darkMode }) {
         <div className='p-2.5 md:p-2'>
           <div className='float-left'>
             <img
-              src={images['nlp.png'].default}
-              alt='NLP'
+              src={images['postgresql.png'].default}
+              alt='Postgresql'
               className='w-8 md:w-10'
             />
           </div>
           <div className='float-left p-2 text-xs md:text-base'>
-            <p>NLP/Chatbots</p>
+            <p>Postgresql</p>
           </div>
           <div className='clear-both'></div>
         </div>
