@@ -11,7 +11,7 @@ export default function Introduction(props) {
           Full-Stack Developer based in London.
           <br /> Currently working as a Sr. Software Engineer at Accenture UK.
         </div>
-        <div className='md:w-2/5 lg:w-2/5 pl-16 lg:pl-28 md:float-left lg:float-left md:py-12 lg:pt-0'>
+        <div className='md:w-2/5 xl:w-2/5 pl-16 lg:pl-16 xl:pl-28 md:float-left lg:float-left md:py-12 xl:pt-0'>
           <img
             className='w-48 rounded-full'
             src={ProfilePic}

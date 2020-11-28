@@ -9,11 +9,11 @@ export default function Body(props) {
   return (
     <section className='Body'>
       <div
-        className={`${props.darkMode}:bg-black ${props.darkMode}:text-white px-4 lg:px-56 font-content pb-10 flex-1 overflow-auto`}
+        className={`${props.darkMode}:bg-black ${props.darkMode}:text-white px-4 lg:px-40 xl:px-56 font-content pb-10 flex-1 overflow-auto`}
       >
         <Introduction darkMode={props.darkMode} />
         <About />
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-40'>
+        <div className='grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-40'>
           <Experience darkMode={props.darkMode} />
           <Education darkMode={props.darkMode} />
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SkillsList({ isVisible, images, darkMode }) {
   return (
-    <div className='grid grid-cols-2 lg:grid-cols-4 gap-1 md:gap-4 font-bold'>
+    <div className='grid grid-cols-2 xl:grid-cols-4 gap-1 md:gap-4 font-bold'>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 rounded-lg ${
           isVisible ? `fade-in-1` : `hidden`
