@@ -9,7 +9,7 @@ function Header(props) {
       className={`font-bold font-header h-24 lg:h-40 bg-white text-black py-4 lg:py-24 px-4 lg:px-40 xl:px-56 flex justify-between items-center ${props.darkMode}:bg-black ${props.darkMode}:text-white`}
     >
       <div className='text-xl'>KIRAN RAMBHA</div>
-      <div className='relative lg:left-60 xl:left-96'>
+      <div className='lg:left-60 xl:left-96'>
         <label className='switch'>
           <input
             type='checkbox'
@@ -27,9 +27,9 @@ function Header(props) {
           <span className='slider round'></span>
         </label>
       </div>
-      <div className='relative lg:left-48 lg:bottom-16 hidden lg:block'>
+      {/* <div className='relative lg:left-48 lg:bottom-16 hidden lg:block'>
         <FontAwesomeIcon icon={faBars} />
-      </div>
+      </div> */}
     </header>
   );
 }

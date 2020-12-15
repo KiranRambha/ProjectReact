@@ -4,6 +4,7 @@ import About from './About';
 import Skills from './Skills';
 import Experience from './Experience';
 import Education from './Education';
+import Projects from './Projects';
 
 export default function Body(props) {
   return (
@@ -17,6 +18,7 @@ export default function Body(props) {
           <Experience darkMode={props.darkMode} />
           <Education darkMode={props.darkMode} />
         </div>
+        <Projects darkMode={props.darkMode} />
         <Skills darkMode={props.darkMode} />
       </div>
     </section>
