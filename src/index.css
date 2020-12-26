@@ -55,6 +55,10 @@ input:checked + .slider:before {
   transform: translateX(13px);
 }
 
+.fit-context {
+  width: fit-content;
+}
+
 /* Rounded sliders */
 .slider.round {
   border-radius: 17px;
