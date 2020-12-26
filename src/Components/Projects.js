@@ -18,7 +18,7 @@ export default function ({ darkMode }) {
           {(projectsIsVisible) => (
             <div className='pb-10 flex'>
               <div
-                className={`w-2 md:w-1 ${darkMode}:bg-gray-200 bg-gray-500 rounded-full md:ml-6 opacity-25`}
+                className={`w-3 md:w-1 ${darkMode}:bg-gray-200 bg-gray-500 rounded-full md:ml-6 opacity-25`}
               ></div>
               <div className='-ml-2'>
                 <div
