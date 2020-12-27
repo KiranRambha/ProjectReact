@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faProjectDiagram,
   faCodeBranch,
+  faExternalLinkAlt,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function ({ darkMode }) {
@@ -31,7 +32,16 @@ export default function ({ darkMode }) {
                   ></div>
                   <div className='ml-8 fit-context'>
                     <div className='mt-1.5 flex items-baseline'>
-                      <h6 className='font-semibold'>Stock Hub - Alexa Skill</h6>
+                      <h6 className='font-semibold'>
+                        Stock Hub - Alexa Skill{' '}
+                        <a
+                          href='#'
+                          target='_blank'
+                          className='text-xs text-indigo-600 relative -top-0.5'
+                        >
+                          <FontAwesomeIcon icon={faExternalLinkAlt} />
+                        </a>
+                      </h6>
                     </div>
                     <div>
                       <h6 className='text-xs font-semibold text-gray-500'>
@@ -52,7 +62,7 @@ export default function ({ darkMode }) {
                     <div className='mt-2 flex items-center text-yellow-500'>
                       <FontAwesomeIcon icon={faCodeBranch} />
                       <a
-                        href='mailto:kiran.rambha@outlook.com?subject=I want to checkout Stock Hub'
+                        href='mailto:kiran.rambha@outlook.com?subject=I want to checkout Stock Hub source code'
                         target='_blank'
                       >
                         <h6 className='font-semibold text-xs ml-2 underline'>
@@ -116,7 +126,14 @@ export default function ({ darkMode }) {
                   <div className='ml-8 fit-context'>
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>
-                        Just Stream - Alexa Skill
+                        Just Stream - Alexa Skill{' '}
+                        <a
+                          href='https://skills-store.amazon.co.uk/deeplink/dp/B087P49PLW?deviceType=app&share&refSuffix=ss_copy'
+                          target='_blank'
+                          className='text-xs text-indigo-600 relative -top-0.5'
+                        >
+                          <FontAwesomeIcon icon={faExternalLinkAlt} />
+                        </a>
                       </h6>
                     </div>
                     <div>
@@ -138,14 +155,11 @@ export default function ({ darkMode }) {
                     <div className='mt-2 flex items-center text-yellow-500'>
                       <FontAwesomeIcon icon={faCodeBranch} />
                       <a
-                        href='https://github.com/KiranRambha/projectParasite'
+                        href='mailto:kiran.rambha@outlook.com?subject=I want to checkout Just Stream source code'
                         target='_blank'
                       >
-                        <h6
-                          className='font-semibold text-xs ml-2 underline'
-                          href='https://github.com/KiranRambha/projectParasite'
-                        >
-                          Github
+                        <h6 className='font-semibold text-xs ml-2 underline'>
+                          Github (Access on Request)
                         </h6>
                       </a>
                     </div>

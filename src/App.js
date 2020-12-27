@@ -4,10 +4,24 @@ import Footer from './Components/Footer';
 import React, { useState } from 'react';
 
 function App() {
-  let theme = localStorage.getItem('darkMode')
-    ? localStorage.getItem('darkMode')
-    : 'dark';
-  localStorage.setItem('darkMode', theme);
+  let theme =
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light';
+
+  let systemThemeChanged = theme !== localStorage.getItem('systemTheme');
+
+  localStorage.setItem('systemTheme', theme);
+
+  if (systemThemeChanged) {
+    localStorage.setItem('darkMode', theme);
+  } else if (localStorage.getItem('darkMode')) {
+    theme = localStorage.getItem('darkMode');
+  } else {
+    localStorage.setItem('darkMode', theme);
+  }
+
   const [darkMode, setDarkMode] = useState(theme);
   return (
     <div
