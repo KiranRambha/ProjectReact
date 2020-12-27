@@ -13,7 +13,7 @@ export default function ({ darkMode }) {
       <div>
         <div className='font-header font text-xl pb-3'>
           <FontAwesomeIcon icon={faProjectDiagram} />
-          <u className='pl-2'>Projects</u>
+          <u className='pl-2 font-bold'>Projects</u>
         </div>
         <IsVisible once>
           {(projectsIsVisible) => (

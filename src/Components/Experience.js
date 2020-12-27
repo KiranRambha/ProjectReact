@@ -9,7 +9,7 @@ export default function Experience({ darkMode }) {
       <div>
         <div className='font-header font text-xl pb-3'>
           <FontAwesomeIcon icon={faLaptopCode} />
-          <u className='pl-2'>Experience</u>
+          <u className='pl-2 font-bold'>Experience</u>
         </div>
         <IsVisible once>
           {(experienceIsVisible) => (

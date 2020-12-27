@@ -22,7 +22,7 @@ export default function Skills({ darkMode }) {
       <div>
         <div className='font-header font text-xl pb-3'>
           <FontAwesomeIcon icon={faTools} />
-          <u className='pl-2'>Skills</u>
+          <u className='pl-2 font-bold'>Skills</u>
         </div>
         <IsVisible once>
           {(isVisible) => (

@@ -9,7 +9,7 @@ export default function Education({ darkMode }) {
       <div>
         <div className='font-header font text-xl pb-3'>
           <FontAwesomeIcon icon={faUserGraduate} />
-          <u className='pl-2'>Education</u>
+          <u className='pl-2 font-bold'>Education</u>
         </div>
         <IsVisible once>
           {(educationIsVisible) => (

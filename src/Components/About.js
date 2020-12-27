@@ -8,7 +8,7 @@ export default function About() {
       <div>
         <div className='font-header font text-xl pb-3'>
           <FontAwesomeIcon icon={faUser} />
-          <u className='pl-2'>About</u>
+          <u className='pl-2 font-bold'>About</u>
         </div>
         <div className='pb-10'>
           Hi my name is <b>Kiran</b>. I am a passionate and hardworking senior

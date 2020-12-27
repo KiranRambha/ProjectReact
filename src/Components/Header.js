@@ -8,7 +8,7 @@ function Header(props) {
     <header
       className={`font-bold font-header h-24 lg:h-40 bg-white text-black py-4 lg:py-24 px-4 lg:px-40 xl:px-56 flex justify-between items-center ${props.darkMode}:bg-black ${props.darkMode}:text-white`}
     >
-      <div className='text-xl'>KIRAN RAMBHA</div>
+      <div className='text-xl font-bold'>KIRAN RAMBHA</div>
       <div className='lg:left-60 xl:left-96'>
         <label className='switch'>
           <input
