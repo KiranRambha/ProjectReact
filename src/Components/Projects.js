@@ -19,7 +19,7 @@ export default function ({ darkMode }) {
           {(projectsIsVisible) => (
             <div className='pb-10 flex'>
               <div
-                className={`w-3 md:w-1 ${darkMode}:bg-gray-200 bg-gray-500 rounded-full md:ml-6 opacity-25`}
+                className={`w-3 md:w-1 ${darkMode}:bg-purple-600 bg-green-500 rounded-full md:ml-6 opacity-60`}
               ></div>
               <div className='-ml-2'>
                 <div
@@ -35,7 +35,7 @@ export default function ({ darkMode }) {
                       <h6 className='font-semibold'>
                         Stock Hub - Alexa Skill{' '}
                         <a
-                          href='#'
+                          href='https://skills-store.amazon.co.uk/deeplink/dp/B08RDDV9KD?deviceType=app&share&refSuffix=ss_copy'
                           target='_blank'
                           className='text-xs text-indigo-600 relative -top-0.5'
                         >

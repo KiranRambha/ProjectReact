@@ -15,7 +15,7 @@ export default function Education({ darkMode }) {
           {(educationIsVisible) => (
             <div className='pb-10 flex'>
               <div
-                className={`w-1 ${darkMode}:bg-gray-200 bg-gray-500 rounded-full md:ml-6 opacity-25`}
+                className={`w-1 ${darkMode}:bg-purple-600 bg-green-500 rounded-full md:ml-6 opacity-60`}
               ></div>
               <div className='-ml-2'>
                 <div
