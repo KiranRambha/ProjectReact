@@ -1,0 +1,15 @@
+version: '2'
+services:
+  node:
+    container_name: kiran-rambha
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:3000"
+    networks: 
+      - kiranrambha-network
+
+networks:
+  kiranrambha-network:
+    driver: bridge
