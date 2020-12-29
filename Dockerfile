@@ -1,17 +1,15 @@
+# 1. Run 'yarn build'
+# 2. Run docker-compose up --build -d
+# 3. localhost:3000
+
 FROM node:latest
 
 LABEL author="Kiran Rambha"
 
-ENV NODE_ENV=production
-
-ENV PORT=3000
-
-COPY . /var/www
-
 WORKDIR /var/www
 
-RUN npm install
+COPY build ./build
 
-EXPOSE ${PORT}
+RUN npm install -g serve
 
-ENTRYPOINT ["yarn", "start"]
+CMD ["serve", "-s", "build"]
