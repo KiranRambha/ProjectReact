@@ -12,7 +12,7 @@ function Footer(props) {
       <div>
         &copy; Copyright {date} KIRAN RAMBHA
         <br />
-        Made with Love in London, UK
+        Made with ❤️ in London, UK
       </div>
       <div className='text-2xl'>
         <span className='px-3'>

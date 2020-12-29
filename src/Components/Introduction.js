@@ -26,7 +26,7 @@ export default function Introduction(props) {
             Currently working as a Sr. Software Engineer at Accenture UK.
           </Typist>
         </div>
-        <div className='md:w-2/5 xl:w-2/5 pl-20 lg:pl-16 xl:pl-44 md:float-left lg:float-left md:py-12 xl:pt-0'>
+        <div className='md:w-2/5 xl:w-2/5 pl-20 lg:pl-16 xl:pl-44 lg:pt-16 lg:pb-16 xl:pt-6 md:float-left lg:float-left md:py-12 xl:pt-0'>
           <img
             className='w-48 rounded-full'
             src={ProfilePic}

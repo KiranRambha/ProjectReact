@@ -15,7 +15,7 @@ export default function Experience({ darkMode }) {
           {(experienceIsVisible) => (
             <div className='pb-10 flex'>
               <div
-                className={`w-1 ${darkMode}:bg-purple-600 bg-green-500 rounded-full md:ml-6 opacity-60`}
+                className={`w-1 ${darkMode}:bg-purple-600 bg-red-500 rounded-full md:ml-6 opacity-60`}
               ></div>
               <div className='-ml-2'>
                 <div
@@ -55,7 +55,7 @@ export default function Experience({ darkMode }) {
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>Accenture UK</h6>
-                      <h6 className='text-xs ml-2'>(Dec '18 - Nov '19')</h6>
+                      <h6 className='text-xs ml-2'>(Dec '18 - Nov '19)</h6>
                     </div>
                     <h6 className='text-sm'>Software Engineer Analyst</h6>
                     <div className='mt-2 flex items-center'>
@@ -79,7 +79,7 @@ export default function Experience({ darkMode }) {
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>Accenture UK</h6>
-                      <h6 className='text-xs ml-2'>(Oct '17 - Nov '18')</h6>
+                      <h6 className='text-xs ml-2'>(Oct '17 - Nov '18)</h6>
                     </div>
                     <h6 className='text-sm'>Software Engineer Associate</h6>
                     <div className='mt-2 flex items-center'>
@@ -103,7 +103,7 @@ export default function Experience({ darkMode }) {
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>Accenture UK</h6>
-                      <h6 className='text-xs ml-2'>(Jun '15 - Sep '16')</h6>
+                      <h6 className='text-xs ml-2'>(Jun '15 - Sep '16)</h6>
                     </div>
                     <h6 className='text-sm'>
                       Software Engineer (Industrial Placement)
