@@ -1,14 +1,18 @@
-# 1. Run 'yarn build'
-# 2. Run docker-compose up --build -d
-# 3. localhost:3000
+# Just run docker-compose up --build -d
 
 FROM node:latest
 
 LABEL author="Kiran Rambha"
 
-WORKDIR /var/www
+WORKDIR /app
 
-COPY build ./build
+COPY package.json /app
+
+RUN yarn install
+
+COPY . /app
+
+RUN yarn build
 
 RUN npm install -g serve
 
