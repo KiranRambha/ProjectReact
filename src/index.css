@@ -42,10 +42,12 @@
 
 .dark-vertical-timeline-custom-line::before {
   background: #ffffff !important;
+  border-radius: 9999px !important;
 }
 
 .light-vertical-timeline-custom-line::before {
   background: #000000 !important;
+  border-radius: 9999px !important;
 }
 
 input:checked + .slider {
