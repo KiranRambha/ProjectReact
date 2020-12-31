@@ -2,10 +2,9 @@ import React from 'react';
 import Introduction from './Introduction';
 import About from './About';
 import Skills from './Skills';
-import Experience from './Experience';
-import Experiences from './Experiences';
-import Education from './Education';
-import Projects from './Projects';
+import Experience from './ExperienceV2';
+import Education from './EducationV2';
+import Projects from './ProjectsV2';
 
 export default function Body(props) {
   return (
@@ -16,10 +15,12 @@ export default function Body(props) {
         <Introduction darkMode={props.darkMode} />
         <About />
         <div className='grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-40'>
-          <Experiences darkMode={props.darkMode} />
+          <Experience darkMode={props.darkMode} />
           <Education darkMode={props.darkMode} />
         </div>
-        <Projects darkMode={props.darkMode} />
+        <div className='grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-40'>
+          <Projects darkMode={props.darkMode} />
+        </div>
         <Skills darkMode={props.darkMode} />
       </div>
     </section>

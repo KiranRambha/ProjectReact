@@ -2,7 +2,7 @@ import React from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
 export default function One({ color, background }) {
   return (
@@ -18,27 +18,33 @@ export default function One({ color, background }) {
       contentArrowStyle={{
         borderRight: `7px solid ${background}`,
       }}
-      date="Dec '19 - Present"
+      date='2016 - 2017'
       dateClassName={'p-0'}
       iconStyle={{
-        background: 'rgb(16, 204, 82)',
-        color: background,
+        background,
+        color,
         'box-shadow': `0 0 0 4px ${color}, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)`,
       }}
-      icon={<FontAwesomeIcon icon={faLaptopCode} />}
+      icon={<FontAwesomeIcon icon={faCode} />}
     >
       <h6 className='vertical-timeline-element-title font-semibold text-base'>
-        Senior Software Engineer Analyst
+        Local Exchange Trading System
       </h6>
-      <h6 className='vertical-timeline-element-subtitle text-sm'>
-        Accenture UK
+      <h6 className='text-xs font-semibold text-gray-500'>
+        LETS is a web application where members can exchange goods and services
+        among themselves using a built in local currency (LETS Credit)
       </h6>
-      <h6 className='text-xs mt-2'>
-        <strong>Specialized in:</strong> Nodejs, Reactjs, Alexa Skill Kit, AWS
+      <h6 className='text-sm mt-1 pb-2'>
+        <strong>Technologies:</strong> C#, ASP.NET MVC
       </h6>
-      <div className='mt-2 flex items-center'>
-        <FontAwesomeIcon icon={faMapPin} />
-        <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
+      <div className='flex items-center text-yellow-500'>
+        <FontAwesomeIcon icon={faCodeBranch} />
+        <a
+          href='https://github.com/KiranRambha/Local-Exchange-Trading-System'
+          target='_blank'
+        >
+          <h6 className='font-semibold text-xs ml-2 underline'>GitHub</h6>
+        </a>
       </div>
     </VerticalTimelineElement>
   );

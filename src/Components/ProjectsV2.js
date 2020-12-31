@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-// import VisibilitySensor from 'react-is-visible';
 import VisibilitySensor from 'react-visibility-sensor';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faMapPin } from '@fortawesome/free-solid-svg-icons';
-import One from './Experiences/One';
-import Two from './Experiences/Two';
-import Three from './Experiences/Three';
-import Four from './Experiences/Four';
+import { faProjectDiagram, faCode } from '@fortawesome/free-solid-svg-icons';
+import One from './Projects/One';
+import Two from './Projects/Two';
+import Three from './Projects/Three';
+import Four from './Projects/Four';
+import End from './End';
 
-export default function Experiences({ darkMode }) {
+export default function EducationV2({ darkMode }) {
   let color = darkMode === 'dark' ? 'white' : 'black';
   let background = darkMode === 'dark' ? 'rgb(0, 0, 0)' : 'white';
   const [isVisible, setIsVisible] = useState(false);
@@ -21,11 +21,11 @@ export default function Experiences({ darkMode }) {
     }
   }
   return (
-    <section className='Experience'>
+    <section className='Projects'>
       <div>
         <div className='font-header font text-xl pb-10'>
-          <FontAwesomeIcon icon={faLaptopCode} />
-          <u className='pl-2 font-bold'>Experience</u>
+          <FontAwesomeIcon icon={faProjectDiagram} />
+          <u className='pl-2 font-bold'>Projects</u>
           <div className='pt-3 font-content'>
             <VisibilitySensor onChange={onChange} partialVisibility='bottom'>
               <VerticalTimeline
@@ -37,6 +37,7 @@ export default function Experiences({ darkMode }) {
                 <Two color={color} background={background} />
                 <Three color={color} background={background} />
                 <Four color={color} background={background} />
+                <End color={color} icon={faCode} />
               </VerticalTimeline>
             </VisibilitySensor>
           </div>
