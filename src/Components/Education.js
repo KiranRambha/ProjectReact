@@ -30,7 +30,7 @@ export default function Education({ darkMode }) {
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>
                         <span>Royal Holloway</span>
-                        <span className='hidden lg:contents'>
+                        <span className='hidden 2xl:contents'>
                           , University of London
                         </span>
                       </h6>
@@ -57,7 +57,7 @@ export default function Education({ darkMode }) {
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>
                         Sri Chaitanya{' '}
-                        <span className='hidden lg:contents'>
+                        <span className='hidden 2xl:contents'>
                           Junior College
                         </span>
                       </h6>
@@ -85,9 +85,8 @@ export default function Education({ darkMode }) {
                   <div className='ml-8'>
                     <div className='mt-1.5 flex items-baseline'>
                       <h6 className='font-semibold'>
-                        Gowtham{' '}
-                        <span className='hidden lg:contents'>Concept</span>{' '}
-                        School
+                        Gowtham Concept
+                        <span className='hidden 2xl:contents'> School</span>
                       </h6>
                       <h6 className='text-xs ml-2'>(2007-2011)</h6>
                     </div>

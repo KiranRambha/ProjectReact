@@ -40,6 +40,14 @@
   transition: 0.4s;
 }
 
+.dark-vertical-timeline-custom-line::before {
+  background: #ffffff !important;
+}
+
+.light-vertical-timeline-custom-line::before {
+  background: #000000 !important;
+}
+
 input:checked + .slider {
   background-color: #000000;
 }

@@ -3,6 +3,7 @@ import Introduction from './Introduction';
 import About from './About';
 import Skills from './Skills';
 import Experience from './Experience';
+import Experiences from './Experiences';
 import Education from './Education';
 import Projects from './Projects';
 
@@ -15,7 +16,7 @@ export default function Body(props) {
         <Introduction darkMode={props.darkMode} />
         <About />
         <div className='grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-40'>
-          <Experience darkMode={props.darkMode} />
+          <Experiences darkMode={props.darkMode} />
           <Education darkMode={props.darkMode} />
         </div>
         <Projects darkMode={props.darkMode} />
