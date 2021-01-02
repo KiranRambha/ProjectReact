@@ -3,7 +3,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import One from './Experiences/One';
 import Two from './Experiences/Two';
 import Three from './Experiences/Three';
@@ -24,7 +24,7 @@ export default function Experiences({ darkMode }) {
     <section className='Experience'>
       <div>
         <div className='font-header font text-xl pb-10'>
-          <FontAwesomeIcon icon={faLaptopCode} />
+          <FontAwesomeIcon icon={faBriefcase} />
           <u className='pl-2 font-bold'>Experience</u>
           <div className='pt-3 font-content'>
             <VisibilitySensor onChange={onChange} partialVisibility='bottom'>

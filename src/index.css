@@ -81,6 +81,14 @@ input:checked + .slider:before {
 /* Toggle Switch CSS End */
 
 .fade-in-1 {
+  animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  -ms-animation: fadeIn 0.5s;
+}
+
+.fade-in-2 {
   animation: fadeIn 1s;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
@@ -88,7 +96,15 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 1s;
 }
 
-.fade-in-2 {
+.fade-in-3 {
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+.fade-in-4 {
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
   -moz-animation: fadeIn 2s;
@@ -96,7 +112,15 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 2s;
 }
 
-.fade-in-3 {
+.fade-in-5 {
+  animation: fadeIn 2.5s;
+  -webkit-animation: fadeIn 2.5s;
+  -moz-animation: fadeIn 2.5s;
+  -o-animation: fadeIn 2.5s;
+  -ms-animation: fadeIn 2.5s;
+}
+
+.fade-in-6 {
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
@@ -104,7 +128,15 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 3s;
 }
 
-.fade-in-4 {
+.fade-in-7 {
+  animation: fadeIn 3.5s;
+  -webkit-animation: fadeIn 3.5s;
+  -moz-animation: fadeIn 3.5s;
+  -o-animation: fadeIn 3.5s;
+  -ms-animation: fadeIn 3.5s;
+}
+
+.fade-in-8 {
   animation: fadeIn 4s;
   -webkit-animation: fadeIn 4s;
   -moz-animation: fadeIn 4s;
@@ -112,7 +144,15 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 4s;
 }
 
-.fade-in-5 {
+.fade-in-9 {
+  animation: fadeIn 4.5s;
+  -webkit-animation: fadeIn 4.5s;
+  -moz-animation: fadeIn 4.5s;
+  -o-animation: fadeIn 4.5s;
+  -ms-animation: fadeIn 4.5s;
+}
+
+.fade-in-10 {
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -120,7 +160,15 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 5s;
 }
 
-.fade-in-6 {
+.fade-in-11 {
+  animation: fadeIn 5.5s;
+  -webkit-animation: fadeIn 5.5s;
+  -moz-animation: fadeIn 5.5s;
+  -o-animation: fadeIn 5.5s;
+  -ms-animation: fadeIn 5.5s;
+}
+
+.fade-in-12 {
   animation: fadeIn 6s;
   -webkit-animation: fadeIn 6s;
   -moz-animation: fadeIn 6s;
@@ -128,7 +176,15 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 6s;
 }
 
-.fade-in-7 {
+.fade-in-13 {
+  animation: fadeIn 6.5s;
+  -webkit-animation: fadeIn 6.5s;
+  -moz-animation: fadeIn 6.5s;
+  -o-animation: fadeIn 6.5s;
+  -ms-animation: fadeIn 6.5s;
+}
+
+.fade-in-14 {
   animation: fadeIn 7s;
   -webkit-animation: fadeIn 7s;
   -moz-animation: fadeIn 7s;
@@ -136,76 +192,20 @@ input:checked + .slider:before {
   -ms-animation: fadeIn 7s;
 }
 
-.fade-in-8 {
+.fade-in-15 {
+  animation: fadeIn 7.5s;
+  -webkit-animation: fadeIn 7.5s;
+  -moz-animation: fadeIn 7.5s;
+  -o-animation: fadeIn 7.5s;
+  -ms-animation: fadeIn 7.5s;
+}
+
+.fade-in-16 {
   animation: fadeIn 8s;
   -webkit-animation: fadeIn 8s;
   -moz-animation: fadeIn 8s;
   -o-animation: fadeIn 8s;
   -ms-animation: fadeIn 8s;
-}
-
-.fade-in-9 {
-  animation: fadeIn 9s;
-  -webkit-animation: fadeIn 9s;
-  -moz-animation: fadeIn 9s;
-  -o-animation: fadeIn 9s;
-  -ms-animation: fadeIn 9s;
-}
-
-.fade-in-10 {
-  animation: fadeIn 10s;
-  -webkit-animation: fadeIn 10s;
-  -moz-animation: fadeIn 10s;
-  -o-animation: fadeIn 10s;
-  -ms-animation: fadeIn 10s;
-}
-
-.fade-in-11 {
-  animation: fadeIn 11s;
-  -webkit-animation: fadeIn 11s;
-  -moz-animation: fadeIn 11s;
-  -o-animation: fadeIn 11s;
-  -ms-animation: fadeIn 11s;
-}
-
-.fade-in-12 {
-  animation: fadeIn 12s;
-  -webkit-animation: fadeIn 12s;
-  -moz-animation: fadeIn 12s;
-  -o-animation: fadeIn 12s;
-  -ms-animation: fadeIn 12s;
-}
-
-.fade-in-13 {
-  animation: fadeIn 13s;
-  -webkit-animation: fadeIn 13s;
-  -moz-animation: fadeIn 13s;
-  -o-animation: fadeIn 13s;
-  -ms-animation: fadeIn 13s;
-}
-
-.fade-in-14 {
-  animation: fadeIn 14s;
-  -webkit-animation: fadeIn 14s;
-  -moz-animation: fadeIn 14s;
-  -o-animation: fadeIn 14s;
-  -ms-animation: fadeIn 14s;
-}
-
-.fade-in-15 {
-  animation: fadeIn 15s;
-  -webkit-animation: fadeIn 15s;
-  -moz-animation: fadeIn 15s;
-  -o-animation: fadeIn 15s;
-  -ms-animation: fadeIn 15s;
-}
-
-.fade-in-16 {
-  animation: fadeIn 16s;
-  -webkit-animation: fadeIn 16s;
-  -moz-animation: fadeIn 16s;
-  -o-animation: fadeIn 16s;
-  -ms-animation: fadeIn 16s;
 }
 
 @keyframes fadeIn {

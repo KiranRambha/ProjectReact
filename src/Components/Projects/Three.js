@@ -21,6 +21,7 @@ export default function One({ color, background }) {
       }}
       contentArrowStyle={{
         borderRight: `7px solid ${background}`,
+        display: 'none',
       }}
       date='April 2020 - Present'
       dateClassName={'p-0'}
@@ -42,9 +43,9 @@ export default function One({ color, background }) {
         </a>
       </h6>
       <h6 className='text-xs font-semibold text-gray-500'>
-        A movie search engine that lets users find where a movie or a tv show is
-        streaming using Alexa. Currently Netflix, Amazon Prime Video and Apple
-        TV+.
+        A movie search engine that lets people find where a movie or a tv show
+        is streaming using their Alexa. Currently this skill supports Netflix,
+        Amazon Prime Video and Apple TV+ streaming services.
       </h6>
       <h6 className='text-sm mt-1 pb-2'>
         <strong>Technologies:</strong> Nodejs, Alexa Skill Kit, etc.

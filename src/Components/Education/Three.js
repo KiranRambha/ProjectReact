@@ -17,6 +17,7 @@ export default function One({ color, background }) {
       }}
       contentArrowStyle={{
         borderRight: `7px solid ${background}`,
+        display: 'none',
       }}
       date='2007 - 2011'
       dateClassName={'p-0'}
