@@ -332,3 +332,23 @@ input:checked + .slider:before {
     opacity: 1;
   }
 }
+
+#progressBarContainer {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#progressBar {
+  background: red;
+  transform-origin: top left;
+  transform: scale(0, 0);
+  opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+  height: 2px;
+}

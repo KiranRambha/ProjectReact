@@ -1,3 +1,4 @@
+import ProgressBar from './Components/ProgressBar';
 import Header from './Components/Header';
 import Body from './Components/Body';
 import Footer from './Components/Footer';
@@ -27,6 +28,7 @@ function App() {
     <div
       className={`${darkMode}:bg-black relative pb-10 min-h-screen flex flex-col`}
     >
+      <ProgressBar />
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <Body darkMode={darkMode} />
       <Footer darkMode={darkMode} />

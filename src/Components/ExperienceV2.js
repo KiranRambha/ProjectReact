@@ -16,7 +16,6 @@ export default function Experiences({ darkMode }) {
   const [isVisible, setIsVisible] = useState(false);
   function onChange(isVisible) {
     if (isVisible) {
-      console.log('visibility sensor: ', isVisible);
       setIsVisible(isVisible);
     }
   }
