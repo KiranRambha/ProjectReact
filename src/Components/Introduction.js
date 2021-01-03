@@ -13,7 +13,7 @@ export default function Introduction(props) {
             cursor={{
               show: true,
               blink: true,
-              element: '/',
+              element: '_',
               hideWhenDone: true,
               hideWhenDoneDelay: 2000,
             }}

@@ -350,5 +350,5 @@ input:checked + .slider:before {
 
 #progressBarContainer,
 #progressBar {
-  height: 2px;
+  height: 3px;
 }
