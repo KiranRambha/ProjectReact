@@ -337,7 +337,6 @@ input:checked + .slider:before {
   position: fixed;
   z-index: 10;
   width: 100%;
-  top: 0;
   left: 0;
 }
 
@@ -350,5 +349,5 @@ input:checked + .slider:before {
 
 #progressBarContainer,
 #progressBar {
-  height: 3px;
+  height: 5px;
 }

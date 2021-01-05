@@ -23,7 +23,7 @@ export default function ProgressBar() {
   }, []);
 
   return (
-    <div id='progressBarContainer'>
+    <div id='progressBarContainer' className='lg:bottom-0'>
       <div
         id='progressBar'
         style={{ transform: `scale(${scroll}, 1)`, opacity: 100 }}
