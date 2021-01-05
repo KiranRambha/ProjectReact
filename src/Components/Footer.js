@@ -7,12 +7,14 @@ function Footer(props) {
   let date = new Date().getFullYear();
   return (
     <footer
-      className={`${props.darkMode}:bg-black ${props.darkMode}:text-white text-center text-xs p-3 absolute bottom-0 w-full px-4 lg:px-40 xl:px-56 flex justify-between`}
+      className={`${props.darkMode}:bg-black ${props.darkMode}:text-white text-xs p-3 absolute bottom-0 w-full px-4 lg:px-40 xl:px-56 flex justify-between`}
     >
       <div>
-        &copy; Copyright {date} KIRAN RAMBHA
+        <span>&copy; Copyright {date} KIRAN RAMBHA</span>
         <br />
-        Made with ❤️ in London, UK
+        <span className='pl-3.5'>
+          Made with ❤️ in <b>London</b>
+        </span>
       </div>
       <div className='text-2xl'>
         <span className='px-3'>
