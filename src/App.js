@@ -5,6 +5,10 @@ import Footer from './Components/Footer';
 import React, { useState } from 'react';
 
 function App() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+
   let theme =
     window.matchMedia &&
     window.matchMedia('(prefers-color-scheme: dark)').matches
