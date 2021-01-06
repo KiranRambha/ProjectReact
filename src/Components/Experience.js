@@ -39,8 +39,8 @@ export default function Experience({ darkMode }) {
                       <h6 className='font-semibold text-xs ml-2'>London, UK</h6>
                     </div>
                     <h6 className='text-xs mt-2'>
-                      <strong>Specialized in:</strong> Nodejs, Reactjs, Alexa
-                      Skill Kit, AWS
+                      <strong>Specialized in:</strong> , Reactjs, Alexa Skill
+                      Kit, AWS
                     </h6>
                   </div>
                 </div>

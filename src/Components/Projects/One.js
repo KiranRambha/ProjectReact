@@ -47,7 +47,7 @@ export default function One({ color, background }) {
         quarterly earnings and much much more using Alexa...
       </h6>
       <h6 className='text-sm mt-1 pb-2'>
-        <strong>Technologies:</strong> Nodejs, Alexa Skill Kit, Lambda, IEX
+        <strong>Technologies:</strong> Node Js, Alexa Skill Kit, Lambda, IEX
         Cloud, Zacks etc.
       </h6>
       <div className='flex items-center text-yellow-500'>

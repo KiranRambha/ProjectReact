@@ -12,7 +12,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
           <div className='float-left'>
             <img
               src={images['nodejs.png'].default}
-              alt='NodeJs'
+              alt='Node Js'
               className='w-8 md:w-10'
             />
           </div>

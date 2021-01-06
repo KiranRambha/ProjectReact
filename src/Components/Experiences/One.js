@@ -35,7 +35,7 @@ export default function One({ color, background }) {
         Accenture UK
       </h6>
       <h6 className='text-xs mt-2'>
-        <strong>Specialized in:</strong> Nodejs, Reactjs, Alexa Skill Kit, AWS
+        <strong>Specialized in:</strong> Node Js, React Js, Alexa Skill Kit, AWS
       </h6>
       <div className='mt-2 flex items-center'>
         <FontAwesomeIcon icon={faMapPin} />

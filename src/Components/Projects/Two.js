@@ -36,7 +36,7 @@ export default function One({ color, background }) {
         following all responsive web design standards.
       </h6>
       <h6 className='text-sm mt-1 pb-2'>
-        <strong>Technologies:</strong> React, Tailwind CSS, Firebase
+        <strong>Technologies:</strong> React Js, Tailwind CSS, Firebase
       </h6>
       <div className='flex items-center text-yellow-500'>
         <FontAwesomeIcon icon={faCodeBranch} />

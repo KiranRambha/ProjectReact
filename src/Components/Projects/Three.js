@@ -48,7 +48,7 @@ export default function One({ color, background }) {
         Amazon Prime Video and Apple TV+ streaming services.
       </h6>
       <h6 className='text-sm mt-1 pb-2'>
-        <strong>Technologies:</strong> Nodejs, Alexa Skill Kit, etc.
+        <strong>Technologies:</strong> Node Js, Alexa Skill Kit, etc.
       </h6>
       <div className='flex items-center text-yellow-500'>
         <FontAwesomeIcon icon={faCodeBranch} />

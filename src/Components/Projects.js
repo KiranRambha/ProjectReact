@@ -52,7 +52,7 @@ export default function ({ darkMode }) {
                     </div>
                     <div>
                       <h6 className='text-sm mt-1 pb-2'>
-                        <strong>Technologies:</strong> Nodejs, Alexa Skill Kit,
+                        <strong>Technologies:</strong> Node Js, Alexa Skill Kit,
                         Lambda, IEX Cloud, Zacks etc.
                       </h6>
                     </div>
@@ -145,7 +145,7 @@ export default function ({ darkMode }) {
                     </div>
                     <div>
                       <h6 className='text-sm mt-1 pb-2'>
-                        <strong>Technologies:</strong> Nodejs, Alexa Skill Kit,
+                        <strong>Technologies:</strong> Node Js, Alexa Skill Kit,
                         etc.
                       </h6>
                     </div>
