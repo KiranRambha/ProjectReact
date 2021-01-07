@@ -5,7 +5,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
     <div className='grid grid-cols-2 xl:grid-cols-4 gap-1 md:gap-4 font-bold'>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-1` : `hidden`
+          isVisible ? `fade-in-1` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -24,7 +24,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-2` : `hidden`
+          isVisible ? `fade-in-2` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -43,7 +43,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-3` : `hidden`
+          isVisible ? `fade-in-3` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -62,7 +62,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-4` : `hidden`
+          isVisible ? `fade-in-4` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -81,7 +81,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-5` : `hidden`
+          isVisible ? `fade-in-5` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -100,7 +100,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-6` : `hidden`
+          isVisible ? `fade-in-6` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -119,7 +119,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-7` : `hidden`
+          isVisible ? `fade-in-7` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -138,7 +138,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-8` : `hidden`
+          isVisible ? `fade-in-8` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -157,7 +157,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-9` : `hidden`
+          isVisible ? `fade-in-9` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -176,7 +176,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-10` : `hidden`
+          isVisible ? `fade-in-10` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -195,7 +195,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-11` : `hidden`
+          isVisible ? `fade-in-11` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -214,7 +214,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-12` : `hidden`
+          isVisible ? `fade-in-12` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -233,7 +233,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-13` : `hidden`
+          isVisible ? `fade-in-13` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -252,7 +252,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-14` : `hidden`
+          isVisible ? `fade-in-14` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -271,7 +271,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-15` : `hidden`
+          isVisible ? `fade-in-15` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
@@ -290,7 +290,7 @@ export default function SkillsList({ isVisible, images, darkMode }) {
       </div>
       <div
         className={`border-solid border-2 border-gray-300 ${darkMode}:border-gray-600 hover:border-gray-600 ${darkMode}:hover:border-gray-300 rounded-lg ${
-          isVisible ? `fade-in-16` : `hidden`
+          isVisible ? `fade-in-16` : `opacity-0`
         }`}
       >
         <div className='p-2.5 md:p-2'>
