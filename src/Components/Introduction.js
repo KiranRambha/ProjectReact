@@ -15,16 +15,14 @@ export default function Introduction(props) {
             cursor={{
               show: true,
               blink: true,
-              element: '_',
-              hideWhenDone: true,
-              hideWhenDoneDelay: 2000,
+              element: '.',
             }}
             startDelay={2000}
           >
             Hi, I'm Kiran Rambha
             <br />
-            <Typist.Delay ms={1000} />A Full Stack Web Developer based in
-            London.
+            <Typist.Delay ms={1000} />
+            Full Stack Web Developer based in London
           </Typist>
         </div>
         <div className='md:w-2/5 xl:w-2/5 lg:pt-8 pb-10 lg:pb-16 xl:pt-6 md:float-left lg:float-left md:py-12 xl:pt-0'>

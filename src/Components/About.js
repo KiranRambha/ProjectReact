@@ -17,8 +17,7 @@ export default function About() {
           <b>Azure Stack</b>. I also have experience in developing high-quality
           large scale web application using <b>ASP.NET CORE</b> as well as
           developing Amazon Alexa skills using <b>Alexa Skill Kit</b> and{' '}
-          <b>AWS Lambda</b>. I have excellent interpersonal and team working
-          skills that have been cultivated throughout years.
+          <b>AWS Lambda</b>.
         </div>
         <div className='pb-10'>
           Along with being a full-stack developer, I really enjoy photography -
