@@ -19,7 +19,7 @@ export default function One({ color, background }) {
         borderRight: `7px solid ${background}`,
         display: 'none',
       }}
-      date='November 2020 - Present'
+      date="Nov '20 - Present"
       dateClassName={'p-0'}
       iconStyle={{
         background,

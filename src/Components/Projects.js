@@ -57,7 +57,7 @@ export default function ({ darkMode }) {
                       </h6>
                     </div>
                     <div>
-                      <h6 className='text-xs'>(November 2020 - Present)</h6>
+                      <h6 className='text-xs'>(Nov '2020 - Present)</h6>
                     </div>
                     <div className='mt-2 flex items-center text-yellow-500'>
                       <FontAwesomeIcon icon={faCodeBranch} />
@@ -99,7 +99,7 @@ export default function ({ darkMode }) {
                       </h6>
                     </div>
                     <div>
-                      <h6 className='text-xs'>(November 2020 - Present)</h6>
+                      <h6 className='text-xs'>(Nov '20 - Present)</h6>
                     </div>
                     <div className='mt-2 flex items-center text-yellow-500'>
                       <FontAwesomeIcon icon={faCodeBranch} />
@@ -150,7 +150,7 @@ export default function ({ darkMode }) {
                       </h6>
                     </div>
                     <div>
-                      <h6 className='text-xs'>(April 2020 - Present)</h6>
+                      <h6 className='text-xs'>(Apr '2020 - Present)</h6>
                     </div>
                     <div className='mt-2 flex items-center text-yellow-500'>
                       <FontAwesomeIcon icon={faCodeBranch} />
