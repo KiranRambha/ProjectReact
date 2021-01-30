@@ -26,8 +26,8 @@ export default function One({ color, background }) {
       date="Nov '20 - Present"
       dateClassName={'p-0'}
       iconStyle={{
-        background: 'rgb(16, 204, 82)',
-        color: background,
+        background,
+        color,
         'box-shadow': `0 0 0 4px ${color}, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)`,
       }}
       icon={<FontAwesomeIcon icon={faCode} />}
