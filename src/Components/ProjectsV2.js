@@ -8,6 +8,7 @@ import One from './Projects/One';
 import Two from './Projects/Two';
 import Three from './Projects/Three';
 import Four from './Projects/Four';
+import Five from './Projects/Five';
 import End from './End';
 
 export default function EducationV2({ darkMode }) {
@@ -32,6 +33,7 @@ export default function EducationV2({ darkMode }) {
                 animate={isVisible ? false : true}
                 className={`${darkMode}-vertical-timeline-custom-line`}
               >
+                <Five color={color} background={background} />
                 <One color={color} background={background} />
                 <Two color={color} background={background} />
                 <Three color={color} background={background} />

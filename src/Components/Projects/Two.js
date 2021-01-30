@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
-export default function One({ color, background }) {
+export default function Two({ color, background }) {
   return (
     <VerticalTimelineElement
       className='vertical-timeline-element-work'
